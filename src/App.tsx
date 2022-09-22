@@ -156,7 +156,7 @@ function App() {
 
      {provider && walletKey && 
          <p>
-          Wallet key connected : {walletKey}
+          Wallet key connected : {walletKey};
          </p>
      }
 
