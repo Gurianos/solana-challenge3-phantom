@@ -154,11 +154,11 @@ function App() {
         )
      }
 
-     {provider && walletKey && 
-         <p>
-          Wallet key connected : {walletKey};
-         </p>
-     }
+     {provider && walletKey && (
+        <p>
+          Wallet key connected : {walletKey}
+         </p> 
+        )}
 
         {!provider && (
           <p>

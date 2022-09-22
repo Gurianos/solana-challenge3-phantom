@@ -1,0 +1,12 @@
+Compiled with problems:X
+
+ERROR in src/App.tsx:158:11
+
+TS2746: This JSX tag's 'children' prop expects a single child of type 'ReactNode', but multiple children were provided.
+    156 |
+    157 |      {provider && walletKey && 
+  > 158 |          <p>
+        |           ^
+    159 |           Wallet key connected : {walletKey}
+    160 |          </p>
+    161 |      }
